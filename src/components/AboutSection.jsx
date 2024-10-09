@@ -3,9 +3,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-
 import profileImg from '../assets/images/photo4.jpg'
-import resumePdf from '../assets/RAJAPANDI  RESUME.pdf';
+import resumePdf from '../assets/RAJAPANDI RESUME.pdf';
 import "../App.css"
 
 function AboutSection() {

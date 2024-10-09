@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 import React, { useState } from 'react';
+import "../App.css"
 
 const ContactSection = () => {
   // Define state for name, email, and message

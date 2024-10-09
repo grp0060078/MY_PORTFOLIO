@@ -10,6 +10,7 @@ import '../App.css';
 
 
 
+
 function ServicesSection() {
   const [openModalIndex, setOpenModalIndex] = useState(null);
 
@@ -23,11 +24,11 @@ function ServicesSection() {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section_title"><span className="name">My </span>Services</h2>
+      <h2 className="section_title" id='service'><span className="name">My </span>Services</h2>
       <div className="services_container container grid">
       
         <ServiceItem
-        
+          
           title="Front-end Development"
           modalTitle="Front-end Developer"
           modalInfo={[
@@ -42,6 +43,8 @@ function ServicesSection() {
           toggleModal={() => toggleModal(0)}
           closeModal={closeModal}
         />
+
+
         <ServiceItem
           title="Back-end Development"
           modalTitle="Back-end Developer"
@@ -56,7 +59,11 @@ function ServicesSection() {
           toggleModal={() => toggleModal(1)}
           closeModal={closeModal}
         />
+
+
         <ServiceItem
+
+
           title="Full-stack Development"
           modalTitle="Full-stack Developer"
           modalInfo={[
@@ -114,11 +121,11 @@ function ServicesSection() {
 
 function ServiceItem({ title, modalTitle, modalInfo, isOpen, toggleModal, closeModal }) {
   return (
+
     <div className="services_item">
 
-
       <FontAwesomeIcon icon={faTerminal} className='icon'/>
-      <h3 className="services_title">{title}</h3>
+        <h3 className="services_title">{title}</h3>
      
       <span className="services_button" onClick={toggleModal}>
         Read More 

@@ -9,6 +9,7 @@ import ServicesSection from './components/ServicesSection';
 import PortfolioSection from './components/PortfolioSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+
 import './App.css'; 
 
 
@@ -16,16 +17,14 @@ import './App.css';
 function App() {
   return (
     <div>
+
       <Header />
       <HeroSection />
       <AboutSection />
       <ResumeSection />
-      
-
       <ServicesSection />
       <PortfolioSection />
       <ContactSection />
-      
       <Footer />
       
     </div>

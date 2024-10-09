@@ -12,6 +12,7 @@ import database from '../assets/images/men-stu.jpg'
 import user from '../assets/images/user.jpg'
 import blog from '../assets/images/aerial-background-blog-cafe.jpg'
 import dictionary from '../assets/images/dictionary-7lv43w7g0b2ekapt.jpg'
+import tictac from '../assets/images/tic tac toe.jpg'
 import "../App.css"
 
 
@@ -49,6 +50,15 @@ function PortfolioSection() {
       demoLink: "https://weather-app-delta-orpin.vercel.app/",
       githubLink: "https://github.com/grp0060078/weather-app.git/"
     },
+    {
+      title: "Tic-Tac-Toe",
+      category: "Frontend",
+      image: tictac,
+      description: "A classic two-player game where players take turns marking X or O on a 3x3 grid, aiming to align three marks horizontally, vertically, or diagonally to win.",
+      demoLink: "https://prodigy-wd-03-nine.vercel.app/",
+      githubLink: "https://github.com/grp0060078/tic-toe-new.git"
+    },
+
 
     {
       title: "Blog Model",
@@ -146,7 +156,7 @@ function PortfolioSection() {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="portfolio_cta">
-              <a href={project.demoLink} className="btn sm primary" target="_blank" rel="noreferrer">Demo</a>
+              <a href={project.demoLink} className="btn sm primary" target="_blank" rel="noreferrer">View</a>
               <a href={project.githubLink} className="btn sm" target="_blank" rel="noreferrer">Github</a>
             </div>
           </article>

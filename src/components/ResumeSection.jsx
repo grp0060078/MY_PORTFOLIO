@@ -4,31 +4,33 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
-import {faHtml5 } from '@fortawesome/free-brands-svg-icons';
-import {faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-import { faJs} from '@fortawesome/free-brands-svg-icons';
-import {faReact } from '@fortawesome/free-brands-svg-icons';
 import { faAws } from '@fortawesome/free-brands-svg-icons';
-import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 
-import mysql from '../assets/images/difference_between_sql_and_mysql.avif'
-import excel from '../assets/images/excel_ms.webp'
+
+import mysql from '../assets/images/mysql.png'
+import excel from '../assets/images/excel.jpeg'
 import express from '../assets/images/1_d2zLEjERsrs1Rzk_95QU9A (1).png'
 import bootstrap from '../assets/images/Bootstrap_logo.svg.png'
 import Restapi from '../assets/images/restapi.png'
 import redux from '../assets/images/redux logo.png'
 import git from '../assets/images/Git-Icon-1788C.png'
 import github from '../assets/images/github.png'
-import render from '../assets/images/render.png'
-import netlify from '../assets/images/netlify-logo.png'
-import vercel from '../assets/images/vercel-deploy.png'
+import render from '../assets/images/render1.jpg'
+import netlify from '../assets/images/Netlify.webp'
+import vercel from '../assets/images/vercel.png'
 import adobephoto from '../assets/images/adobe-photoshop-logo.png'
-import adobexd from '../assets/images/adobe xd.png'
+import adobexd from '../assets/images/xd.png'
 import figma from '../assets/images/Figma-1-logo.png'
-import msword from '../assets/images/msword.png'
+import msword from '../assets/images/word1.webp'
 import powerpoint from '../assets/images/microsoft-powerpoint-2013-logo-52B688AEC4-seeklogo.com.png'
 import digitalmarketing from '../assets/images/digi.png'
+import html from '../assets/images/html5.png'
+import css from '../assets/images/Css.png'
+import js from '../assets/images/js.png'
+import react from '../assets/images/React.svg'
+import node from '../assets/images/node.png'
+import mongodb from '../assets/images/mongodb.png'
+
 
 
 
@@ -139,35 +141,35 @@ function ResumeSection() {
                             {/* Skill Progress Bars  */}
                             <div className="progressBox">
                                 <div className="progress_name">
-                                    <span > <FontAwesomeIcon icon={faHtml5} className="color1" /></span>
+                                    <span><img className='img1' src={html}/></span>
                                 </div>
                             </div>
                             
 
                             <div className="progressBox">
                                 <div className="progress_name">
-                                    <span><FontAwesomeIcon icon={faCss3Alt}  className="color2" /></span>
+                                    <span><img className='img1' src={css}/></span>
                                 </div>
                             </div>
 
 
                             <div className="progressBox">
                                 <div className="progress_name">
-                                    <span><FontAwesomeIcon icon={faJs}  className="color3" /></span>
+                                <span><img className='img1' src={js}/></span>
                                 </div>
                             </div>
 
 
                             <div className="progressBox">
                                 <div className="progress_name">
-                                    <span><FontAwesomeIcon icon={faReact}  className="color4" /></span>
+                                <span><img className='img1' src={react}/></span>
                                 </div>
                             </div>
 
 
                             <div className="progressBox">
                                 <div className="progress_name">
-                                    <span><FontAwesomeIcon icon={faNodeJs}  className="color5" /></span>
+                                <span><img className='img1' src={node}/></span>
                                 </div>
                             </div> 
 
@@ -188,7 +190,7 @@ function ResumeSection() {
 
                             <div className="progressBox">
                                 <div className="progress_name">
-                                    <span><FontAwesomeIcon icon={faDatabase}  className="color8" /></span>
+                                <span><img className='img1' src={mongodb}/></span>
                                 </div>
                              </div>
 
@@ -200,11 +202,7 @@ function ResumeSection() {
                             </div>
 
 
-                            <div className="progressBox">
-                                <div className="progress_name">
-                                    <span><img className='img1' src={excel}/></span>
-                                 </div>
-                            </div>
+                          
 
 
                             <div className="progressBox">
@@ -285,6 +283,13 @@ function ResumeSection() {
                                 <div className="progress_name">
                                     <span><img className='img2' src={msword} />  </span>
                                 </div>
+                            </div>
+
+
+                            <div className="progressBox">
+                                <div className="progress_name">
+                                    <span><img className='img1' src={excel}/></span>
+                                 </div>
                             </div>
 
 
